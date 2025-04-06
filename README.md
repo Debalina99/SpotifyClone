@@ -3,4 +3,4 @@ This project involves the creation of a Spotify clone using HTML and CSS. The ob
 
 
 Home Page (Dimension: 1728 x 1117)
-![alt text](image-1.png)
+![alt text](image-2.png)
