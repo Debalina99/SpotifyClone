@@ -6,7 +6,5 @@ Home Page
 (Dimension: 1728 x 1117)
 ![alt text](image-2.png)
 
-(Dimension: 425 X 651)
-![alt text](image.png)
-
-![alt text](image-1.png)
+(Dimension: 412 X 914)
+![alt text](image-3.png)
