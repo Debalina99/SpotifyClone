@@ -3,6 +3,7 @@
 
 <head>
   <title>Spotify Clone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
@@ -92,10 +93,16 @@
         <div class="profile">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNWPhXbh68-pBV7iNSR76TAgOVQRSqkuogA&s"
             alt="profile-photo" class="profile-photo" />
-          <span>Angel</span>
+          <span class="user-name">Angel</span>
           <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAWlBMVEUAAAD///90dHQ0NDS6urr8/Pz4+PgjIyN8fHzDw8Pf399VVVX19fVjY2MKCgrs7Ow5OTmKioobGxtvb2+lpaXW1taYmJgoKCjKysqurq4VFRVeXl5HR0fm5ua/RswbAAACJUlEQVR4nO3cjXKCMBAE4FRBEBH8w3/f/zVbncbWYJRL7pJ0ut8T7HTWnQOnqjwbq6SMs1xlsUP0ZSqxv9NVgpEAAAAAAAAAAAAAAAD+oVU5ElauqJnWHwGsiaH2IULtiaEuIUJdiKE2IUJtiKGKTj5TVxBDqbF8KIevZde5bKSc+tm72cqG2rpkEp4F6hxoRSWXqSKXXFtMpDJNFq6ZlCqFyp6X7pnEyu5Ycm0qkWnql0ntBMpe7TxDCZTdp+TaiDvUyD8Te9k9S66xLrvrkpsaxrJXDVMoNWMr+2TGlYnxMcLpXLFhuo6p9+8bLMvuu+SmovXP1DqfKzaL2jdTzbDkptI3lNe5YuNZduaSa17LzrXkPR7P8tQn9OHmzmWv52Kh3M8YlnPF5uCW6SCZSTVOyz5lOw0sqRxqVQtn+jpjyKlqxnPFhlx20ZJrxLLLlvyOtOxiS25YEc6Ylvyy3NXwZZdcctPgM0bkXLEZeMYInSsWzaCy78VX89FxQNnbY9hMSp3evuTLT6EzDSh70JJr2etMkf4d7mXZQy25afGi7K3AQ94w9rcxnG9XqJa2UMt4mazLHnbJTc3T7yq7wEtuenbGhDtXbPrLHmPJTb2yRy25ZtzsgW7ydx7K3sVO8+38623M5Rw7jTb7CRVxyU33sidRcu2QVMm129c3VewUhusZE+9csTm3bTIfPAAAAAAAAAAA+DsS/J3KcZo/Mpriz7F+AjB/GiXtzQFeAAAAAElFTkSuQmCC"
             alt="dropdownarrow" class="dropdownarrow" />
+        </div>
+        
+        <div class="header-options">
+          <span class="option1" style="background-color: #1db954;">All</span>
+          <span class="option1">Music</span>
+          <span class="option1">Podcasts</span>
         </div>
       </header>
       <div class="heading">
@@ -121,9 +128,9 @@
             <span>Dance / Electronic Mix</span>
           </div>
         </div>
-        <div class="heading" style="display: flex;justify-content: space-between;">
+        <div class="heading" style="margin: 0;display: flex;justify-content: space-between;">
           <span>Shows you might like</span>
-          <span style="font-size: 18px;cursor: pointer;color: lightgrey;">SEE ALL</span>
+          <span class="see-all">SEE ALL</span>
         </div>
         <div class="middle-section">
           <div class="card-shows">
@@ -178,7 +185,7 @@
     </main>
 
     <div class="footer">
-      <div style="display: flex;justify-content: space-between;margin: 0 30px 0 10px;">
+      <div style="display: flex;justify-content: space-between;margin: 0 30px 0 20px;">
         <!-- Playlist Grid content -->
         <section class="song" id="playlistGrid">
           <img src="https://i.scdn.co/image/ab67616d0000b273dde2d6585bea9b113bc31cf8" alt="song-image"
@@ -194,12 +201,12 @@
           style="display: flex;flex-direction: column;justify-content: center;align-items: center;gap:12px">
           <div class="player">
             <img src="./Assets/playericon1.png" alt="playericon1" class="playericons">
-            <img src="./Assets/playericon2.png" alt="playericon2" class="playericons">
-            <img src="./Assets/playericon3.png" alt="playericon3" class="playericons" style="height: 50px;width: 50px;">
-            <img src="./Assets/playericon4.png" alt="playericon4" class="playericons">
+            <img src="./Assets/playericon2.png" alt="playericon2" class="playericons" style="display: block;">
+            <img src="./Assets/playericon3.png" alt="playericon3" class="playericons" style="height: 50px;width: 50px;display: block;">
+            <img src="./Assets/playericon4.png" alt="playericon4" class="playericons" style="display: block;">
             <img src="./Assets/playericon5.png" alt="playericon5" class="playericons">
           </div>
-          <div style="display: flex;justify-content: center;align-items: center;gap:10px">
+          <div class="song-details">
             <span>2:11</span>
             <div class="spotify-progress-container">
               <div class="spotify-progress-bar" style="width: 80%;"></div>
